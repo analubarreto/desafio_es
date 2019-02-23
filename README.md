@@ -1,6 +1,7 @@
+#Descrição do Projeto
+- Este projeto foi feito como projeto inicial da matéria de Estrutura de Dados do curso de Ciência da Computação do UniCEUB.
+
 #Como usar
-
-
 ***** Baixando e Abrindo ******
 - Baixe o código utilizando o comando: git pull https://github.com/analubarreto/desafio_es.git ou fazendo o download
 pelo botão de download

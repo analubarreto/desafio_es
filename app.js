@@ -154,8 +154,7 @@ function bindTaskEvents(taskListItem,checkboxEventHandler) {
 // percorerrer os itens do ul incompleteTaskHolder
 	//for each list item
 	for (var i = 0; i < incompleteTaskHolder.children.length; i++){
-
-		//bind events to list items chldren(tasksCompleted)
+		//bind eventos a lista de itens children(tasksCompleted)
 		bindTaskEvents(incompleteTaskHolder.children[i],taskCompleted);
 	}
 
@@ -163,7 +162,7 @@ function bindTaskEvents(taskListItem,checkboxEventHandler) {
 
 
 // percorerrer os itens do ul completedTaskHolder
-	for (var i=0; i < completedTasksHolder.children.length; i++) {
-	//bind events a lista items children(tasksIncompleted)
+	for (var i = 0; i < completedTasksHolder.children.length; i++) {
+	//bind eventos a lista itens children(tasksIncompleted)
 		bindTaskEvents(completedTasksHolder.children[i], taskIncomplete);
 	}
